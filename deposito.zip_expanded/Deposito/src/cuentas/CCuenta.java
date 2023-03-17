@@ -1,6 +1,11 @@
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
+ * 
+ * @author SergioTurciosOlalla
+ * @version 0.1
+ * 
+ * 
  */
 
 package cuentas;
@@ -12,7 +17,7 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInters;
 
 
     public CCuenta()
@@ -76,13 +81,13 @@ public class CCuenta {
     }
 
 
-    public double getTipoInterés() {
-        return tipoInterés;
+    public double getTipoInters() {
+        return tipoInters;
     }
 
 
-    public void setTipoInterés(double tipoInterés) {
-        this.tipoInterés = tipoInterés;
+    public void setTipoInters(double tipoInters) {
+        this.tipoInters = tipoInters;
     }
 
 	private String getCuenta() {
